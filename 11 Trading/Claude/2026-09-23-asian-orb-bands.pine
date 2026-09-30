@@ -1,0 +1,174 @@
+//@version=6
+// ─────────────────────────────────────────────────────────────────────────────
+// Asian Session Gold ORB + EMA Bands
+// Companion to: Peachy Investor — "The BEST Asian Session Trading Strategy for Gold"
+//
+// Three pieces of the model on one chart:
+//   1. ORB boxes   — 5-minute and 15-minute ranges from the 18:00 ET gold open,
+//                    each with a 50% midline (the retest level on wider ranges).
+//   2. Time gates  — background shading for the three phases of the evening.
+//                    Before 20:00 ET is explicitly a no-trade zone in the video.
+//   3. EMA bands   — 4 and 9 EMA anchored to the 5-minute, so they stay true
+//                    when you drop to the 1-minute. Yellow = compression /
+//                    deep retrace, which is the continuation entry trigger.
+//
+// Intended chart: 1-minute MGC (or GC). Bands are meaningless above the 5m.
+// For analysis and trade planning. Not financial advice.
+// ─────────────────────────────────────────────────────────────────────────────
+
+indicator("Asian Gold ORB + Bands", shorttitle = "Asian ORB", overlay = true,
+          max_boxes_count = 500, max_lines_count = 500, max_labels_count = 100)
+
+// ───── Inputs: ORB ───────────────────────────────────────────────────────────
+g_o = "Opening range"
+tz = input.string("America/New_York", "Session timezone",
+     options = ["America/New_York", "America/Chicago", "America/Denver", "America/Los_Angeles", "UTC"],
+     group = g_o,
+     tooltip = "All session strings below are read in this timezone. Defaults are the video's Eastern times: 18:00 gold open, 20:00 Tokyo, 21:00 Hong Kong pre-open.")
+orb5Sess  = input.session("1800-1805", "5-minute ORB",  group = g_o)
+orb15Sess = input.session("1800-1815", "15-minute ORB", group = g_o)
+show5     = input.bool(true, "Show 5-minute box",  group = g_o)
+show15    = input.bool(true, "Show 15-minute box", group = g_o)
+showMid   = input.bool(true, "Show 50% midlines",  group = g_o,
+     tooltip = "The retest level the video uses when the range is wide. On a narrow range it prefers the box edge itself.")
+
+// ───── Inputs: time of day ───────────────────────────────────────────────────
+g_t = "Time of day"
+deadSess  = input.session("1800-2000", "No-trade window", group = g_t,
+     tooltip = "Open through Tokyo. The video is blunt that breaks here are fakeouts and this is where accounts get chopped up.")
+buildSess = input.session("2000-2100", "Volume building",  group = g_t)
+primeSess = input.session("2100-0100", "Prime window",     group = g_t,
+     tooltip = "Hong Kong pre-open onward - the golden window where the session's real trend tends to set up.")
+shadeBg    = input.bool(true, "Shade the windows", group = g_t)
+gateAlerts = input.bool(true, "Only fire alerts in the prime window", group = g_t)
+
+// ───── Inputs: bands ─────────────────────────────────────────────────────────
+g_b = "EMA bands"
+showBands = input.bool(true, "Show bands", group = g_b)
+bandTf    = input.timeframe("5", "Anchor timeframe", group = g_b,
+     tooltip = "The bands are derived from this timeframe no matter what chart you are on. The video runs them from the 5m while trading the 1m.")
+fastLen   = input.int(4, "Fast EMA", minval = 1, group = g_b)
+slowLen   = input.int(9, "Slow EMA", minval = 1, group = g_b)
+compMult  = input.float(0.25, "Compression threshold (x ATR)", minval = 0.01, step = 0.05, group = g_b,
+     tooltip = "Band separation below this fraction of ATR counts as compressed - the yellow deep-retrace state the video enters on.")
+
+// ───── Inputs: style ─────────────────────────────────────────────────────────
+g_v = "Style"
+c5      = input.color(#9c7bd4, "5-minute ORB",  group = g_v)
+c15     = input.color(#e0912f, "15-minute ORB", group = g_v)
+cBull   = input.color(#26a69a, "Bands bullish", group = g_v)
+cBear   = input.color(#ef5350, "Bands bearish", group = g_v)
+cFlat   = input.color(#d4b93c, "Bands compressed", group = g_v)
+boxFill = input.int(94, "Box fill transparency", minval = 0, maxval = 100, group = g_v)
+
+// ───── Session membership ────────────────────────────────────────────────────
+inOrb5  = not na(time(timeframe.period, orb5Sess,  tz))
+inOrb15 = not na(time(timeframe.period, orb15Sess, tz))
+inDead  = not na(time(timeframe.period, deadSess,  tz))
+inBuild = not na(time(timeframe.period, buildSess, tz))
+inPrime = not na(time(timeframe.period, primeSess, tz))
+
+// ───── ORB tracking and drawing ──────────────────────────────────────────────
+var float o5h  = na
+var float o5l  = na
+var float o15h = na
+var float o15l = na
+var box   b5   = na
+var box   b15  = na
+var line  m5   = na
+var line  m15  = na
+
+f_mid(float h, float l) => (h + l) / 2.0
+
+if inOrb5 and not inOrb5[1]
+    o5h := high
+    o5l := low
+    if show5
+        b5 := box.new(bar_index, o5h, bar_index, o5l, border_color = c5, bgcolor = color.new(c5, boxFill))
+        m5 := showMid ? line.new(bar_index, f_mid(o5h, o5l), bar_index, f_mid(o5h, o5l), color = c5, style = line.style_dotted) : na
+else if inOrb5
+    o5h := math.max(o5h, high)
+    o5l := math.min(o5l, low)
+
+if inOrb15 and not inOrb15[1]
+    o15h := high
+    o15l := low
+    if show15
+        b15 := box.new(bar_index, o15h, bar_index, o15l, border_color = c15, bgcolor = color.new(c15, boxFill))
+        m15 := showMid ? line.new(bar_index, f_mid(o15h, o15l), bar_index, f_mid(o15h, o15l), color = c15, style = line.style_dotted) : na
+else if inOrb15
+    o15h := math.max(o15h, high)
+    o15l := math.min(o15l, low)
+
+// Extend the live session's drawings rightward until the next session opens
+if not na(b5)
+    box.set_top(b5, o5h)
+    box.set_bottom(b5, o5l)
+    box.set_right(b5, bar_index)
+if not na(m5)
+    line.set_y1(m5, f_mid(o5h, o5l))
+    line.set_y2(m5, f_mid(o5h, o5l))
+    line.set_x2(m5, bar_index)
+if not na(b15)
+    box.set_top(b15, o15h)
+    box.set_bottom(b15, o15l)
+    box.set_right(b15, bar_index)
+if not na(m15)
+    line.set_y1(m15, f_mid(o15h, o15l))
+    line.set_y2(m15, f_mid(o15h, o15l))
+    line.set_x2(m15, bar_index)
+
+// ───── Time-of-day shading ───────────────────────────────────────────────────
+bgcolor(shadeBg and inDead  ? color.new(color.red,    94) : na, title = "No-trade window")
+bgcolor(shadeBg and inBuild ? color.new(color.orange, 94) : na, title = "Volume building")
+bgcolor(shadeBg and inPrime ? color.new(color.green,  95) : na, title = "Prime window")
+
+// ───── EMA bands ─────────────────────────────────────────────────────────────
+bandFast = request.security(syminfo.tickerid, bandTf, ta.ema(close, fastLen), lookahead = barmerge.lookahead_off)
+bandSlow = request.security(syminfo.tickerid, bandTf, ta.ema(close, slowLen), lookahead = barmerge.lookahead_off)
+atrRef   = request.security(syminfo.tickerid, bandTf, ta.atr(14),             lookahead = barmerge.lookahead_off)
+
+compressed = not na(atrRef) and math.abs(bandFast - bandSlow) < compMult * atrRef
+bandBull   = bandFast > bandSlow
+bandCol    = compressed ? cFlat : bandBull ? cBull : cBear
+
+pF = plot(showBands ? bandFast : na, "Fast band", color = color.new(bandCol, 20), linewidth = 1)
+pS = plot(showBands ? bandSlow : na, "Slow band", color = color.new(bandCol, 20), linewidth = 1)
+fill(pF, pS, color = color.new(bandCol, 80), title = "Band fill")
+
+// A deep retrace: price trades back into the band pair while it is compressed.
+bandTop     = math.max(bandFast, bandSlow)
+bandBot     = math.min(bandFast, bandSlow)
+intoBand    = low <= bandTop and high >= bandBot
+deepRetrace = intoBand and compressed
+
+// ───── Level touches ─────────────────────────────────────────────────────────
+f_touch(float lvl) => not na(lvl) and low <= lvl and high >= lvl
+
+touch5      = f_touch(o5h)  or f_touch(o5l)
+touch15     = f_touch(o15h) or f_touch(o15l)
+touchMid    = f_touch(f_mid(o5h, o5l)) or f_touch(f_mid(o15h, o15l))
+anyOrbTouch = touch5 or touch15 or touchMid
+
+gate = not gateAlerts or inPrime
+
+// ───── Guard rails ───────────────────────────────────────────────────────────
+var label warnLbl = na
+if barstate.islast and na(warnLbl) and timeframe.in_seconds() > timeframe.in_seconds(bandTf)
+    warnLbl := label.new(bar_index, high,
+         "Chart timeframe is above the band anchor - bands will be stepped. Drop to 1m.",
+         style = label.style_label_down, color = color.new(color.orange, 20),
+         textcolor = color.white, size = size.small)
+
+// ───── Alerts ────────────────────────────────────────────────────────────────
+alertcondition(inPrime and not inPrime[1],
+     title = "Prime window open",
+     message = "Asian gold: prime window open (21:00 ET) - check bias, ORB reaction, and bands")
+
+alertcondition(anyOrbTouch and gate,
+     title = "ORB retest",
+     message = "Asian gold: price is retesting an ORB level in the prime window")
+
+alertcondition(deepRetrace and gate,
+     title = "Deep retrace into bands",
+     message = "Asian gold: deep retrace into compressed bands - watch for the reaction candle")

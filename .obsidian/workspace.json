@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "ea1e45b32766e85d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a80a432956d81157",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a24999d3f6fa8aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Business/Waterfield Detailing/Process & Products.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Process & Products"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38228927b3e6efd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ff5821f4e8b103e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81eb3cfdbaac24ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "221582eb22e0bf8a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4e2f09de270ef1ca",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1f89dc7dc0bd96d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b4873bd0cdaa863",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c51ef995fad294f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03 Business/James Kenney Gaming/Games/Ocarina of Time/Episode 02 - Princess of Destiny.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Episode 02 - Princess of Destiny"
+            }
+          },
+          {
+            "id": "0f4793509c9d55d1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03 Business/James Kenney Gaming/Games/Ocarina of Time/Episode 02 - Princess of Destiny.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Episode 02 - Princess of Destiny"
+            }
+          },
+          {
+            "id": "129c4e0717075815",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "aec0374971bbbfc3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "22122971eb13db8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03 Business/James Kenney Gaming/Games/Ocarina of Time/Episode 02 - Princess of Destiny.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Episode 02 - Princess of Destiny"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7a24999d3f6fa8aa",
+  "lastOpenFiles": [
+    "03 Business/Waterfield Detailing/Services & Pricing.md",
+    "03 Business/Waterfield Detailing/Process & Products.md",
+    "03 Business/Waterfield Detailing/Market Research.md",
+    "11 Trading/Asian Session Evening Checklist.md",
+    "03 Business/Waterfield Detailing/Website Build Prompts.md",
+    "03 Business/Waterfield Detailing/Website Plan.md",
+    "03 Business/Waterfield Detailing/Terms & Policies.md",
+    "03 Business/Waterfield Detailing/Operations.md",
+    "03 Business/Waterfield Detailing/Waterfield Detailing - Overview.md",
+    "03 Business/Waterfield Detailing/Startup Checklist.md",
+    "03 Business/Waterfield Detailing",
+    "11 Trading/Peachy Investor Notes/Asian Session Gold ORB Model.md",
+    "11 Trading/Peachy Investor Notes/Intro to Charting.md",
+    "11 Trading/Claude/2026-09-23-asian-orb-bands.pine",
+    "03 Business/James Kenney Gaming/Games/Ocarina of Time/Episode 04 - The Mighty Collection Finale.md",
+    "11 Trading/Peachy Investor Notes/Top Down Analysis.md",
+    "11 Trading/Peachy Investor Notes",
+    "05 Websites/Blue Springs Lawn Plan/dist/client/og.png",
+    "05 Websites/Blue Springs Lawn Plan/public/og.png",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/eslint-plugin-import/CHANGELOG.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/vite/LICENSE.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/ajv/README.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/webpack/README.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/enhanced-resolve/README.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/terser/README.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/docs/01-app/03-api-reference/02-components/image.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/docs/01-app/02-guides/authentication.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/vinext/README.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/es-abstract/CHANGELOG.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/web-vitals/README.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-metadata.md",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/@cloudflare/workers-types/entrypoints.svg",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/miniflare/dist/local-explorer-ui/favicon.svg",
+    "05 Websites/Blue Springs Lawn Plan/dist/client/favicon.svg",
+    "05 Websites/Blue Springs Lawn Plan/public/favicon.svg",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/webpack/lib/html/favicon.svg",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/next-devtools/dev-overlay/components/errors/error-overlay-footer/error-feedback",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/next-devtools/dev-overlay/components/errors/dev-tools-indicator/dev-tools-info",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/@vinext/types/next/upstream/dist/next-devtools/dev-overlay/container/runtime-error",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/@vinext/types/next/upstream/dist/server/route-modules/app-page/vendored/contexts",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/next-devtools/dev-overlay/components/errors/error-overlay-bottom-stack",
+    "05 Websites/Blue Springs Lawn Plan/node_modules/@cspotcode/source-map-support/node_modules/@jridgewell/trace-mapping/dist/types"
+  ]
+}
