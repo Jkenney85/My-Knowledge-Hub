@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a80a432956d81157",
+        "id": "8bae4cb890481226",
         "type": "tabs",
         "children": [
           {
-            "id": "7a24999d3f6fa8aa",
+            "id": "d0e2aa2e53883f09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 Business/Waterfield Detailing/Process & Products.md",
+                "file": "06 HomeLab/Ubuntu 26.04 Setup/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Process & Products"
+              "title": "README"
             }
           }
         ]
@@ -185,10 +185,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "7a24999d3f6fa8aa",
+  "active": "d0e2aa2e53883f09",
   "lastOpenFiles": [
-    "03 Business/Waterfield Detailing/Services & Pricing.md",
+    "03 Business/CedarSideHustle/Market Research.md",
+    "06 HomeLab/Ubuntu 26.04 Setup/README.md",
+    "06 HomeLab/Ubuntu 26.04 Setup/install-apps.sh",
+    "06 HomeLab/Ubuntu 26.04 Setup",
+    "03 Business/CedarSideHustle/CedarSideHustle - Overview.md",
+    "03 Business/CedarSideHustle/14x14x24 Cedar Planter.md",
+    "03 Business/CedarSideHustle/Assets/Rectangular Planter Six Leg Layout.png",
+    "03 Business/CedarSideHustle/Assets/Planter Corner Layout.png",
+    "03 Business/CedarSideHustle/14x28x24 Cedar Planter.md",
+    "03 Business/Business Dashboard.md",
+    "03 Business/CedarSideHustle/Assets",
+    "03 Business/CedarSideHustle",
+    "file:/mnt/network_share/Books/New_books/PROMPT.md",
+    "12 Recipes/Brined Chicken Nuggets.md",
+    "12 Recipes/Shopping List.md",
     "03 Business/Waterfield Detailing/Process & Products.md",
+    "03 Business/Waterfield Detailing/Services & Pricing.md",
     "03 Business/Waterfield Detailing/Market Research.md",
     "11 Trading/Asian Session Evening Checklist.md",
     "03 Business/Waterfield Detailing/Website Build Prompts.md",
@@ -209,15 +224,6 @@
     "05 Websites/Blue Springs Lawn Plan/node_modules/eslint-plugin-import/CHANGELOG.md",
     "05 Websites/Blue Springs Lawn Plan/node_modules/vite/LICENSE.md",
     "05 Websites/Blue Springs Lawn Plan/node_modules/ajv/README.md",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/webpack/README.md",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/enhanced-resolve/README.md",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/terser/README.md",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/docs/01-app/03-api-reference/02-components/image.md",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/docs/01-app/02-guides/authentication.md",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/vinext/README.md",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/es-abstract/CHANGELOG.md",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/web-vitals/README.md",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-metadata.md",
     "05 Websites/Blue Springs Lawn Plan/node_modules/@cloudflare/workers-types/entrypoints.svg",
     "05 Websites/Blue Springs Lawn Plan/node_modules/miniflare/dist/local-explorer-ui/favicon.svg",
     "05 Websites/Blue Springs Lawn Plan/dist/client/favicon.svg",
@@ -225,10 +231,6 @@
     "05 Websites/Blue Springs Lawn Plan/node_modules/webpack/lib/html/favicon.svg",
     "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/next-devtools/dev-overlay/components/errors/error-overlay-footer/error-feedback",
     "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/next-devtools/dev-overlay/components/errors/dev-tools-indicator/dev-tools-info",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/@vinext/types/next/upstream/dist/next-devtools/dev-overlay/container/runtime-error",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/@vinext/types/next/upstream/dist/server/route-modules/app-page/vendored/contexts",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/next/dist/next-devtools/dev-overlay/components/errors/error-overlay-bottom-stack",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/@cspotcode/source-map-support/node_modules/@jridgewell/trace-mapping/dist/types"
+    "05 Websites/Blue Springs Lawn Plan/node_modules/@vinext/types/next/upstream/dist/next-devtools/dev-overlay/container/runtime-error"
   ]
 }

@@ -33,6 +33,13 @@ created: 2026-06-18
 
 - [[James Kenney Gaming/Channel Dashboard|James Kenney Gaming dashboard]]
 
+## CedarSideHustle
+
+- [[CedarSideHustle/CedarSideHustle - Overview|Overview]]
+- [[CedarSideHustle/14x14x24 Cedar Planter|First planter: cut list and costs]]
+- [[CedarSideHustle/14x28x24 Cedar Planter|Six-leg rectangular planter: cut list and build plan]]
+- [[CedarSideHustle/Market Research|Local market and sales channels]]
+
 ## Useful note types
 
 - Use [[10 Templates/Business Idea|Business Idea]] for opportunities and experiments.
