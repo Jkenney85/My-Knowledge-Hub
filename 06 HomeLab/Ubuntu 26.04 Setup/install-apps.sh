@@ -11,8 +11,10 @@ if [[ ${1:-} == --help ]]; then
 Usage: bash install-apps.sh
 
 Run in Terminal as your normal user after installing Ubuntu 26.04 Desktop.
+Updates and upgrades Ubuntu before installing applications.
 Installs ChatGPT, Claude, Obsidian, GNOME Tweaks, Extension Manager, gTile,
 TradingView, native Steam, ProtonPlus, and the latest stable GE-Proton.
+Also installs PhotoCraft, FilmCraft, and LightCraft from official .deb files.
 Requires internet access and sudo. Do not run the entire script with sudo.
 This installs applications; it does not install Ubuntu or partition drives.
 HELP
@@ -62,9 +64,68 @@ install_snap() {
     fi
 }
 
-step 'Installing package tools and enabling Ubuntu application repositories'
+install_artcraft() {
+    local app=$1
+    local -a assets
+    local package_path
+    step "Finding the latest $app Debian package"
+    download "https://api.github.com/repos/storytold/$app/releases/latest" \
+        "$work_dir/$app-release.json"
+    /usr/bin/python3 - "$app" "$work_dir/$app-release.json" "$work_dir/$app-assets.txt" <<'PY'
+import json, re, sys
+from urllib.parse import urlparse
+app, release_path, output_path = sys.argv[1:]
+with open(release_path) as f:
+    release = json.load(f)
+tag = release.get('tag_name', '')
+if release.get('draft') or release.get('prerelease') or not re.fullmatch(r'[A-Za-z0-9._-]+', tag):
+    raise SystemExit(f'No recognized release found for {app}.')
+assets = release.get('assets', [])
+packages = [a for a in assets if re.fullmatch(re.escape(app) + r'-[0-9][A-Za-z0-9.+-]*-linux-x86_64\.deb', a['name'])]
+checksums = [a for a in assets if a['name'] == 'SHA256SUMS.txt']
+if len(packages) != 1 or len(checksums) != 1:
+    raise SystemExit(f'Expected one x86_64 Debian package and a checksum file for {app}.')
+for asset in (packages[0], checksums[0]):
+    url = urlparse(asset['browser_download_url'])
+    expected_path = f'/storytold/{app}/releases/download/{tag}/{asset["name"]}'
+    if url.scheme != 'https' or url.netloc != 'github.com' or url.path != expected_path or url.query or url.fragment:
+        raise SystemExit(f'Unexpected download URL for {app}.')
+with open(output_path, 'w') as f:
+    f.write('\n'.join((packages[0]['name'], packages[0]['browser_download_url'], checksums[0]['browser_download_url'])) + '\n')
+PY
+    mapfile -t assets < "$work_dir/$app-assets.txt"
+    package_path="$work_dir/${assets[0]}"
+    download "${assets[1]}" "$package_path"
+    download "${assets[2]}" "$work_dir/$app-SHA256SUMS.txt"
+    /usr/bin/python3 - "$package_path" "$work_dir/$app-SHA256SUMS.txt" <<'PY'
+import hashlib, re, sys
+from pathlib import Path
+package = Path(sys.argv[1])
+matches = []
+for line in Path(sys.argv[2]).read_text().splitlines():
+    match = re.fullmatch(r'([0-9a-fA-F]{64})\s+\*?(.+)', line)
+    if match and match[2] == package.name:
+        matches.append(match[1].lower())
+if len(matches) != 1:
+    raise SystemExit(f'Expected one checksum for {package.name}.')
+with package.open('rb') as f:
+    digest = hashlib.file_digest(f, 'sha256').hexdigest()
+if digest != matches[0]:
+    raise SystemExit(f'Checksum verification failed for {package.name}.')
+print(f'SHA-256 verification passed: {package.name}')
+PY
+    [[ $(dpkg-deb -f "$package_path" Package) == "$app" ]]
+    [[ $(dpkg-deb -f "$package_path" Architecture) == amd64 ]]
+    sudo apt-get install -y "$package_path"
+}
+
+step 'Updating and upgrading Ubuntu before installing applications'
 sudo -v
 sudo apt-get update
+# Match apt upgrade behavior: permit new dependencies without removing packages.
+sudo apt-get upgrade -y --with-new-pkgs
+
+step 'Installing package tools and enabling Ubuntu application repositories'
 sudo apt-get install -y ca-certificates curl gnupg jq python3 python3-gi \
     software-properties-common flatpak snapd
 sudo add-apt-repository -y -n universe
@@ -100,6 +161,11 @@ sudo systemctl start snapd.socket
 sudo snap wait system seed.loaded
 install_snap obsidian --classic
 install_snap tradingview
+
+step 'Installing PhotoCraft, FilmCraft, and LightCraft'
+install_artcraft photocraft
+install_artcraft filmcraft
+install_artcraft lightcraft
 
 step 'Installing native Steam from Valve'
 download 'https://repo.steampowered.com/steam/archive/stable/steam.gpg' "$work_dir/steam.gpg"
@@ -252,3 +318,6 @@ Next steps:
 Rerunning this script installs the latest stable GE-Proton alongside old
 versions. It does not delete old versions or change your games' selections.
 DONE
+if [[ -f /var/run/reboot-required ]]; then
+    printf '\nUbuntu requires a reboot to finish applying system updates. Reboot after setup.\n'
+fi
