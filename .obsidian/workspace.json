@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 HomeLab/Ubuntu 26.04 Setup/README.md",
+                "file": "03 Business/CedarSideHustle/Cedar Christmas Tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Cedar Christmas Tree"
             }
           }
         ]
@@ -187,8 +187,10 @@
   },
   "active": "d0e2aa2e53883f09",
   "lastOpenFiles": [
-    "03 Business/CedarSideHustle/Market Research.md",
     "06 HomeLab/Ubuntu 26.04 Setup/README.md",
+    "03 Business/CedarSideHustle/Cedar Christmas Tree.md",
+    "03 Business/CedarSideHustle/Assets/Christmas Tree Picket Cut Layouts.png",
+    "03 Business/CedarSideHustle/Market Research.md",
     "06 HomeLab/Ubuntu 26.04 Setup/install-apps.sh",
     "06 HomeLab/Ubuntu 26.04 Setup",
     "03 Business/CedarSideHustle/CedarSideHustle - Overview.md",
@@ -223,7 +225,6 @@
     "05 Websites/Blue Springs Lawn Plan/public/og.png",
     "05 Websites/Blue Springs Lawn Plan/node_modules/eslint-plugin-import/CHANGELOG.md",
     "05 Websites/Blue Springs Lawn Plan/node_modules/vite/LICENSE.md",
-    "05 Websites/Blue Springs Lawn Plan/node_modules/ajv/README.md",
     "05 Websites/Blue Springs Lawn Plan/node_modules/@cloudflare/workers-types/entrypoints.svg",
     "05 Websites/Blue Springs Lawn Plan/node_modules/miniflare/dist/local-explorer-ui/favicon.svg",
     "05 Websites/Blue Springs Lawn Plan/dist/client/favicon.svg",

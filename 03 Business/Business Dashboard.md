@@ -38,6 +38,7 @@ created: 2026-06-18
 - [[CedarSideHustle/CedarSideHustle - Overview|Overview]]
 - [[CedarSideHustle/14x14x24 Cedar Planter|First planter: cut list and costs]]
 - [[CedarSideHustle/14x28x24 Cedar Planter|Six-leg rectangular planter: cut list and build plan]]
+- [[CedarSideHustle/Cedar Christmas Tree|Cedar Christmas trees (6 ft and 4 ft): cut list and picket layout]]
 - [[CedarSideHustle/Market Research|Local market and sales channels]]
 
 ## Useful note types

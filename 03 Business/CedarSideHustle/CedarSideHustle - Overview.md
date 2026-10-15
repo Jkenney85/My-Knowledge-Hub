@@ -32,6 +32,14 @@ Build cedar planter boxes and similar items to sell through Facebook Marketplace
 - **Revised layout:** eight pickets, **$27.84 in lumber before tax**, with taller long bottom rails bearing on the middle legs' inside feet. Prototype verification and a separate rectangular-product price are still needed.
 - **Product details:** [[03 Business/CedarSideHustle/14x28x24 Cedar Planter|Rectangular planter development]].
 
+## Seasonal product in development
+
+- **Concept:** herringbone-style stacked cedar Christmas trees in two sizes, 6 ft and 4 ft, built from the same incense cedar pickets.
+- **Layout:** one full-picket backbone (72″ or 48″) with a 7″ bare stub, plus two layers of 45°-mitered chevron branch pairs (5 tiers per layer on the 6 ft tree, 3 on the 4 ft).
+- **Lumber:** 6 ft tree = 5 pickets ($17.40 before tax); 4 ft tree = 3 pickets ($10.44); one of each = 7 pickets ($24.36) by reusing the 6 ft leftovers.
+- **Still open:** price, fastening, finish, base or stand, and prototype verification.
+- **Product details:** [[03 Business/CedarSideHustle/Cedar Christmas Tree|Cut list and picket layout]].
+
 ## Customer and proposed value
 
 - **Initial customer hypothesis:** Kansas City metro homeowners and renters looking for planters for porches, patios, or small gardens; validate through actual inquiries.
@@ -81,6 +89,7 @@ Build cedar planter boxes and similar items to sell through Facebook Marketplace
 - 2026-10-09: User confirmed soil-filled use with a liner, with a removable pot also an option. The loosely followed video provides no specific construction details, so develop an independent build plan.
 - 2026-10-09: User selected natural unfinished cedar. Added draft assembly geometry and a permeable-liner recommendation; final hardware, load capacity, and dimensions remain unverified.
 - 2026-10-09: User chose to start with a few builds and let demand determine whether to keep stock or build to order. Suggested one prototype followed by two saleable units.
+- 2026-10-14: Planned a seasonal cedar Christmas tree product (6 ft and 4 ft). Cut layouts calculated; no prototype built yet.
 - Five-picket cut plan calculated; physical prototype has not yet verified fit or yield.
 
 Return to [[03 Business/Business Dashboard|Business Dashboard]].
