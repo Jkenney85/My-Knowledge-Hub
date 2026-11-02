@@ -39,6 +39,7 @@ Build cedar planter boxes and similar items to sell through Facebook Marketplace
 - **Lumber:** 6 ft tree = 5 pickets ($17.40 before tax); 4 ft tree = 3 pickets ($10.44); one of each = 7 pickets ($24.36) by reusing the 6 ft leftovers.
 - **Still open:** price, fastening, finish, base or stand, and prototype verification.
 - **Product details:** [[03 Business/CedarSideHustle/Cedar Christmas Tree|Cut list and picket layout]].
+- **Second tree style:** taller 2x4 stepped A-frame tree, scaled from a "2x4 Christmas Tree DIY" diagram. 4 ft (2 cedar 2x4x8s, ~$29.56 before tax) and 6 ft (3 boards, ~$43.17), using Home Depot Midtown KC prices from 2026-11-01. See [[03 Business/CedarSideHustle/2x4 Christmas Tree|2x4 tree blueprint and costs]].
 
 ## Customer and proposed value
 
@@ -90,6 +91,7 @@ Build cedar planter boxes and similar items to sell through Facebook Marketplace
 - 2026-10-09: User selected natural unfinished cedar. Added draft assembly geometry and a permeable-liner recommendation; final hardware, load capacity, and dimensions remain unverified.
 - 2026-10-09: User chose to start with a few builds and let demand determine whether to keep stock or build to order. Suggested one prototype followed by two saleable units.
 - 2026-10-14: Planned a seasonal cedar Christmas tree product (6 ft and 4 ft). Cut layouts calculated; no prototype built yet.
+- 2026-11-01: Added a 2x4 stepped Christmas tree in 4 ft and 6 ft sizes with drawings, cut lists, and costs; no prototype built yet.
 - Five-picket cut plan calculated; physical prototype has not yet verified fit or yield.
 
 Return to [[03 Business/Business Dashboard|Business Dashboard]].
