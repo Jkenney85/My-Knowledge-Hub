@@ -7,7 +7,7 @@ created: 2026-10-09
 
 # 14x14x24 Cedar Planter
 
-First planned product for [[03 Business/CedarSideHustle/CedarSideHustle - Overview|CedarSideHustle]].
+First planned product for [[03 Business/WoodWorkingSideHustle/WoodWorkingSideHustle - Overview|WoodWorkingSideHustle]].
 
 ## Material and dimensions
 
@@ -72,7 +72,7 @@ The bottom blanks are trimmed and one is narrowed during assembly; the table pre
 
 This is a calculated layout for prototype development, not a physically verified build plan. It preserves the original five-picket blank-cutting layout.
 
-![[03 Business/CedarSideHustle/Assets/Planter Corner Layout.png]]
+![[03 Business/WoodWorkingSideHustle/Assets/Planter Corner Layout.png]]
 
 - **Side walls:** use three horizontal 5-1/2″ × 14″ pieces per side. At each corner, one wall end meets the face of the next wall, with the overlap rotating around the box. This repeated corner arrangement allows all twelve side pieces to remain 14″ long and produces a square body approximately 14-5/8″ outside and 13-3/8″ inside, assuming actual 5/8″ stock and no gaps.
 - **Legs:** wrap each body corner with two 2″ × 24″ pieces in an L. The two equal-width pieces produce unequal visible leg-face widths at a butt joint; verify the appearance on the prototype. Legs add 5/8″ beyond each body face, giving a maximum footprint of approximately 15-7/8″ before the rim.
@@ -155,7 +155,7 @@ Record applicable purchase tax, hands-on labor, and any selling or delivery cost
 - Proposed base offer includes the permeable liner, but no soil, plants, or removable pot. Agree on travel charges separately when applicable.
 - Preliminary material/consumable budget: $25–$30 per planter, including the confirmed $17.40 cedar cost and an unverified allowance for other supplies and purchase tax.
 - At $65, that budget leaves $35–$40 for labor, overhead, and profit before uncharged travel and selling fees; this is not net profit.
-- See [[03 Business/CedarSideHustle/Market Research|Market research]] for comparisons and the cost scenario. Prototype timing and costs are still needed to validate the price.
+- See [[03 Business/WoodWorkingSideHustle/Market Research|Market research]] for comparisons and the cost scenario. Prototype timing and costs are still needed to validate the price.
 
 ## Prototype checks
 

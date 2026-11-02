@@ -7,7 +7,7 @@ created: 2026-10-15
 f
 # Cedar Christmas Tree
 
-Seasonal product concept for [[03 Business/CedarSideHustle/CedarSideHustle - Overview|CedarSideHustle]], planned 2026-10-14. Related: [[03 Business/CedarSideHustle/14x14x24 Cedar Planter|Square planter]] · [[03 Business/CedarSideHustle/14x28x24 Cedar Planter|Rectangular planter]].
+Seasonal product concept for [[03 Business/WoodWorkingSideHustle/WoodWorkingSideHustle - Overview|WoodWorkingSideHustle]], planned 2026-10-14. Related: [[03 Business/WoodWorkingSideHustle/14x14x24 Cedar Planter|Square planter]] · [[03 Business/WoodWorkingSideHustle/14x28x24 Cedar Planter|Rectangular planter]].
 
 ## Design status
 
@@ -64,7 +64,7 @@ The lowest branch tip lands about 64-1/2″ down on the 6 ft tree (just above th
 
 ## Picket cutting layout
 
-![[03 Business/CedarSideHustle/Assets/Christmas Tree Picket Cut Layouts.png]]
+![[03 Business/WoodWorkingSideHustle/Assets/Christmas Tree Picket Cut Layouts.png]]
 
 Neighboring pieces share one 45° cut, so each piece uses only its long side minus 5-1/2″ of stock. Alternate the miter direction on every cut; the only waste is a small triangle at the start of each picket.
 

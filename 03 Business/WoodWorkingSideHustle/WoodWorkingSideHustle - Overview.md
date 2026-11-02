@@ -5,11 +5,11 @@ area: business
 created: 2026-10-09
 ---
 
-# CedarSideHustle
+# WoodWorkingSideHustle
 
 ## The idea
 
-Build cedar planter boxes and similar items to sell through Facebook Marketplace and other suitable sales channels.
+Build woodworking projects (planter boxes, seasonal decor, and similar items) in cedar, pine, or whatever wood suits each product, and sell them through Facebook Marketplace and other suitable sales channels.
 
 ## First product
 
@@ -22,7 +22,7 @@ Build cedar planter boxes and similar items to sell through Facebook Marketplace
 - **Finish:** natural unfinished cedar for the first version.
 - **Draft assembled size:** approximately 16″ × 16″ × 24-5/8″ using rotating butt joints and the original five-picket blank layout; verify on the prototype before listing dimensions.
 - **Liner recommendation:** water-permeable landscape fabric, with drainage tested on the prototype.
-- **Product details:** [[03 Business/CedarSideHustle/14x14x24 Cedar Planter|Cut list and product planning]].
+- **Product details:** [[03 Business/WoodWorkingSideHustle/14x14x24 Cedar Planter|Cut list and product planning]].
 
 ## Rectangular product in development
 
@@ -30,7 +30,7 @@ Build cedar planter boxes and similar items to sell through Facebook Marketplace
 - **Dimension decision confirmed:** 14″ and 28″ wall pieces and 24″ legs, like the first planter; estimated finished size approximately 16″ × 30″ × 24-5/8″.
 - **Leg count confirmed:** six legs—four L-shaped corner legs and two middle supports, one along each long side.
 - **Revised layout:** eight pickets, **$27.84 in lumber before tax**, with taller long bottom rails bearing on the middle legs' inside feet. Prototype verification and a separate rectangular-product price are still needed.
-- **Product details:** [[03 Business/CedarSideHustle/14x28x24 Cedar Planter|Rectangular planter development]].
+- **Product details:** [[03 Business/WoodWorkingSideHustle/14x28x24 Cedar Planter|Rectangular planter development]].
 
 ## Seasonal product in development
 
@@ -38,8 +38,15 @@ Build cedar planter boxes and similar items to sell through Facebook Marketplace
 - **Layout:** one full-picket backbone (72″ or 48″) with a 7″ bare stub, plus two layers of 45°-mitered chevron branch pairs (5 tiers per layer on the 6 ft tree, 3 on the 4 ft).
 - **Lumber:** 6 ft tree = 5 pickets ($17.40 before tax); 4 ft tree = 3 pickets ($10.44); one of each = 7 pickets ($24.36) by reusing the 6 ft leftovers.
 - **Still open:** price, fastening, finish, base or stand, and prototype verification.
-- **Product details:** [[03 Business/CedarSideHustle/Cedar Christmas Tree|Cut list and picket layout]].
-- **Second tree style:** taller 2x4 stepped A-frame tree, scaled from a "2x4 Christmas Tree DIY" diagram. 4 ft (2 cedar 2x4x8s, ~$29.56 before tax) and 6 ft (3 boards, ~$43.17), using Home Depot Midtown KC prices from 2026-11-01. See [[03 Business/CedarSideHustle/2x4 Christmas Tree|2x4 tree blueprint and costs]].
+- **Product details:** [[03 Business/WoodWorkingSideHustle/Cedar Christmas Tree|Cut list and picket layout]].
+- **Second tree style:** taller 2x4 stepped A-frame tree in plain pine, scaled from a "2x4 Christmas Tree DIY" diagram. 4 ft (2 pine 2x4x8 studs, ~$12.70 before tax) and 6 ft (3 studs, ~$17.88), painted or stained (finish TBD), using Home Depot Midtown KC prices from 2026-11-01. See [[03 Business/WoodWorkingSideHustle/2x4 Christmas Tree|2x4 tree blueprint and costs]].
+
+## Workbench in development
+
+- **Concept:** 2×4 workbench with a lower shelf, 24″ × 48″ top, 36″ work height. Two are built together from one 4×8 sheet of 3/4″ MDF (two tops and two shelves): one for the shop, one to sell.
+- **Materials:** 13 pine 2×4 studs for both, MDF sealed with water-based polyurethane. About $98.66 per bench before tax (Home Depot Midtown KC, 2026-11-02).
+- **Still open:** selling price, stability test, and prototype verification.
+- **Product details:** [[03 Business/WoodWorkingSideHustle/2x4 MDF Workbench|Workbench plan, cut lists, and costs]].
 
 ## Customer and proposed value
 
@@ -48,7 +55,7 @@ Build cedar planter boxes and similar items to sell through Facebook Marketplace
 - **Initial sales channel:** Facebook Marketplace.
 - **Target area:** Kansas City, Missouri metro area.
 - **Fulfillment:** pickup, an agreed meetup, or delivery; travel radius and fees still to set.
-- **Other channels:** local groups where permitted and an OfferUp listing test; consider maker markets after proving demand. See [[03 Business/CedarSideHustle/Market Research|Market research]].
+- **Other channels:** local groups where permitted and an OfferUp listing test; consider maker markets after proving demand. See [[03 Business/WoodWorkingSideHustle/Market Research|Market research]].
 
 ## Smallest useful test
 
@@ -92,6 +99,8 @@ Build cedar planter boxes and similar items to sell through Facebook Marketplace
 - 2026-10-09: User chose to start with a few builds and let demand determine whether to keep stock or build to order. Suggested one prototype followed by two saleable units.
 - 2026-10-14: Planned a seasonal cedar Christmas tree product (6 ft and 4 ft). Cut layouts calculated; no prototype built yet.
 - 2026-11-01: Added a 2x4 stepped Christmas tree in 4 ft and 6 ft sizes with drawings, cut lists, and costs; no prototype built yet.
+- 2026-11-02: Renamed the business from CedarSideHustle to WoodWorkingSideHustle to cover projects beyond cedar. Switched the 2x4 Christmas tree from cedar to plain pine 2x4 studs.
+- 2026-11-02: Planned two 2×4 MDF workbenches from one MDF sheet with drawings, cut lists, and costs; no prototype built yet.
 - Five-picket cut plan calculated; physical prototype has not yet verified fit or yield.
 
 Return to [[03 Business/Business Dashboard|Business Dashboard]].

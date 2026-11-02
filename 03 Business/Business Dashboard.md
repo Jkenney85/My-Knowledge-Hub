@@ -33,13 +33,15 @@ created: 2026-06-18
 
 - [[James Kenney Gaming/Channel Dashboard|James Kenney Gaming dashboard]]
 
-## CedarSideHustle
+## WoodWorkingSideHustle
 
-- [[CedarSideHustle/CedarSideHustle - Overview|Overview]]
-- [[CedarSideHustle/14x14x24 Cedar Planter|First planter: cut list and costs]]
-- [[CedarSideHustle/14x28x24 Cedar Planter|Six-leg rectangular planter: cut list and build plan]]
-- [[CedarSideHustle/Cedar Christmas Tree|Cedar Christmas trees (6 ft and 4 ft): cut list and picket layout]]
-- [[CedarSideHustle/Market Research|Local market and sales channels]]
+- [[WoodWorkingSideHustle/WoodWorkingSideHustle - Overview|Overview]]
+- [[WoodWorkingSideHustle/14x14x24 Cedar Planter|First planter: cut list and costs]]
+- [[WoodWorkingSideHustle/14x28x24 Cedar Planter|Six-leg rectangular planter: cut list and build plan]]
+- [[WoodWorkingSideHustle/Cedar Christmas Tree|Cedar Christmas trees (6 ft and 4 ft): cut list and picket layout]]
+- [[WoodWorkingSideHustle/2x4 Christmas Tree|Pine 2x4 Christmas trees (4 ft and 6 ft): drawings, cut lists, and costs]]
+- [[WoodWorkingSideHustle/2x4 MDF Workbench|2x4 MDF workbenches (two from one sheet): drawings, cut lists, and costs]]
+- [[WoodWorkingSideHustle/Market Research|Local market and sales channels]]
 
 ## Useful note types
 

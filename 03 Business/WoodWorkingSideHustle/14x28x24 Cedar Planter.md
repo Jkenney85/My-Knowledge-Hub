@@ -7,7 +7,7 @@ created: 2026-10-09
 
 # 14x28x24 Cedar Planter
 
-Rectangular product concept for [[03 Business/CedarSideHustle/CedarSideHustle - Overview|CedarSideHustle]], requested 2026-10-09. Related: [[03 Business/CedarSideHustle/14x14x24 Cedar Planter|Square planter]].
+Rectangular product concept for [[03 Business/WoodWorkingSideHustle/WoodWorkingSideHustle - Overview|WoodWorkingSideHustle]], requested 2026-10-09. Related: [[03 Business/WoodWorkingSideHustle/14x14x24 Cedar Planter|Square planter]].
 
 ## Design status
 
@@ -87,7 +87,7 @@ Measure the actual stock and kerf before cutting. Bottom blanks deliberately ret
 
 ## Middle-leg assembly: one on each long side
 
-![[03 Business/CedarSideHustle/Assets/Rectangular Planter Six Leg Layout.png]]
+![[03 Business/WoodWorkingSideHustle/Assets/Rectangular Planter Six Leg Layout.png]]
 
 Each middle leg uses these parts, all 2″ wide and 5/8″ thick:
 
@@ -146,7 +146,7 @@ Each middle leg uses these parts, all 2″ wide and 5/8″ thick:
 - [Simpson Strong-Tie stainless steel fasteners](https://www.strongtie.com/solutions/stainless-steel/fasteners): corrosion-resistant exterior fasteners. Product-specific screw spacing and pilot-hole guidance still needs to be checked for the actual selected screw.
 - [University of Minnesota Extension: Raised bed gardens](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/raised-bed-gardens): permeable liner/drainage principle. Applying it to this elevated design is a design recommendation.
 
-References reviewed during the CedarSideHustle planning session, 2026-10-09. The dimensions and support assembly above are original calculated proposals; these sources do not certify this planter design.
+References reviewed during the WoodWorkingSideHustle planning session, 2026-10-09. The dimensions and support assembly above are original calculated proposals; these sources do not certify this planter design.
 
 ## Next decisions and checks
 

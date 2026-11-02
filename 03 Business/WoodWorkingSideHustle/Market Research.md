@@ -5,9 +5,9 @@ area: business
 created: 2026-10-09
 ---
 
-# CedarSideHustle Market Research
+# WoodWorkingSideHustle Market Research
 
-Related: [[03 Business/CedarSideHustle/CedarSideHustle - Overview|Overview]] · [[03 Business/CedarSideHustle/14x14x24 Cedar Planter|First planter]].
+Related: [[03 Business/WoodWorkingSideHustle/WoodWorkingSideHustle - Overview|Overview]] · [[03 Business/WoodWorkingSideHustle/14x14x24 Cedar Planter|First planter]].
 
 ## Target area
 
@@ -85,7 +85,7 @@ Recalculate after the prototype. Review both per-unit contribution and total tim
 
 ## Launch inventory test
 
-The square-planter cost and price examples above apply to the original product. The additional [[03 Business/CedarSideHustle/14x28x24 Cedar Planter|six-leg rectangular prototype]] uses eight pickets, **$27.84 in lumber before tax**; its other costs and selling price require a separate calculation.
+The square-planter cost and price examples above apply to the original product. The additional [[03 Business/WoodWorkingSideHustle/14x28x24 Cedar Planter|six-leg rectangular prototype]] uses eight pickets, **$27.84 in lumber before tax**; its other costs and selling price require a separate calculation.
 
 - User preference: build a few initially and decide from demand whether to keep stock or build to order.
 - Suggested test: one prototype, then two saleable units once fit, drainage, and support have been checked.
