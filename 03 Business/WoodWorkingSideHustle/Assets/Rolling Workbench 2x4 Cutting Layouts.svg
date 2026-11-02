@@ -1,0 +1,74 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 820 560' width='820' height='560'>
+<defs><marker id='a' viewBox='0 0 10 10' refX='5' refY='5' markerWidth='7' markerHeight='7' orient='auto-start-reverse'><path d='M0,2 L5,5 L0,8' fill='none' stroke='#b4532a' stroke-width='1.5'/></marker></defs>
+<rect x='0.0' y='0.0' width='820.0' height='560.0' fill='#fbf8f3' stroke='none' stroke-width='0'/>
+<text x='410.0' y='32.0' font-family='Helvetica, Arial, sans-serif' font-size='19' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>Rolling workbench 2×4 cutting layouts — both benches</text>
+<text x='410.0' y='52.0' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#5d6b70' text-anchor='middle' font-weight='normal'>One 2×4×96" stud per row.</text>
+<text x='20.0' y='115.0' font-family='Helvetica, Arial, sans-serif' font-size='14' fill='#1f2a2e' text-anchor='start' font-weight='bold'>Pattern A</text>
+<text x='20.0' y='131.0' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#5d6b70' text-anchor='start' font-weight='normal'>make 4</text>
+<rect x='190.0' y='100.0' width='595.2' height='34.0' fill='#efe6d8' stroke='#5d6b70' stroke-width='1' stroke-dasharray='4 3'/>
+<rect x='190.0' y='100.0' width='294.5' height='34.0' fill='#e9c9a0' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='337.2' y='114.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Rail</text>
+<text x='337.2' y='128.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>47-1/2"</text>
+<rect x='485.3' y='100.0' width='294.5' height='34.0' fill='#e9c9a0' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='632.5' y='114.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Rail</text>
+<text x='632.5' y='128.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>47-1/2"</text>
+<text x='785.2' y='150.0' font-family='Helvetica, Arial, sans-serif' font-size='10.5' fill='#5d6b70' text-anchor='end' font-weight='normal'>≈7/8" left over</text>
+<text x='20.0' y='193.0' font-family='Helvetica, Arial, sans-serif' font-size='14' fill='#1f2a2e' text-anchor='start' font-weight='bold'>Pattern B</text>
+<text x='20.0' y='209.0' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#5d6b70' text-anchor='start' font-weight='normal'>make 2</text>
+<rect x='190.0' y='178.0' width='595.2' height='34.0' fill='#efe6d8' stroke='#5d6b70' stroke-width='1' stroke-dasharray='4 3'/>
+<rect x='190.0' y='178.0' width='193.8' height='34.0' fill='#d9ae7b' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='286.9' y='192.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Leg</text>
+<text x='286.9' y='206.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>31-1/4"</text>
+<rect x='384.5' y='178.0' width='193.8' height='34.0' fill='#d9ae7b' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='481.4' y='192.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Leg</text>
+<text x='481.4' y='206.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>31-1/4"</text>
+<rect x='579.0' y='178.0' width='193.8' height='34.0' fill='#d9ae7b' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='675.9' y='192.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Leg</text>
+<text x='675.9' y='206.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>31-1/4"</text>
+<text x='785.2' y='228.0' font-family='Helvetica, Arial, sans-serif' font-size='10.5' fill='#5d6b70' text-anchor='end' font-weight='normal'>≈2" left over</text>
+<text x='20.0' y='271.0' font-family='Helvetica, Arial, sans-serif' font-size='14' fill='#1f2a2e' text-anchor='start' font-weight='bold'>Pattern C</text>
+<text x='20.0' y='287.0' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#5d6b70' text-anchor='start' font-weight='normal'>make 1</text>
+<rect x='190.0' y='256.0' width='595.2' height='34.0' fill='#efe6d8' stroke='#5d6b70' stroke-width='1' stroke-dasharray='4 3'/>
+<rect x='190.0' y='256.0' width='193.8' height='34.0' fill='#d9ae7b' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='286.9' y='270.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Leg</text>
+<text x='286.9' y='284.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>31-1/4"</text>
+<rect x='384.5' y='256.0' width='193.8' height='34.0' fill='#d9ae7b' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='481.4' y='270.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Leg</text>
+<text x='481.4' y='284.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>31-1/4"</text>
+<rect x='579.0' y='256.0' width='127.1' height='34.0' fill='#f0d7b5' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='642.6' y='270.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Cross</text>
+<text x='642.6' y='284.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>20-1/2"</text>
+<text x='785.2' y='306.0' font-family='Helvetica, Arial, sans-serif' font-size='10.5' fill='#5d6b70' text-anchor='end' font-weight='normal'>≈12-3/4" left over</text>
+<text x='20.0' y='349.0' font-family='Helvetica, Arial, sans-serif' font-size='14' fill='#1f2a2e' text-anchor='start' font-weight='bold'>Pattern D</text>
+<text x='20.0' y='365.0' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#5d6b70' text-anchor='start' font-weight='normal'>make 2</text>
+<rect x='190.0' y='334.0' width='595.2' height='34.0' fill='#efe6d8' stroke='#5d6b70' stroke-width='1' stroke-dasharray='4 3'/>
+<rect x='190.0' y='334.0' width='127.1' height='34.0' fill='#f0d7b5' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='253.6' y='348.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Cross</text>
+<text x='253.6' y='362.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>20-1/2"</text>
+<rect x='317.9' y='334.0' width='127.1' height='34.0' fill='#f0d7b5' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='381.4' y='348.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Cross</text>
+<text x='381.4' y='362.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>20-1/2"</text>
+<rect x='445.8' y='334.0' width='127.1' height='34.0' fill='#f0d7b5' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='509.3' y='348.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Cross</text>
+<text x='509.3' y='362.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>20-1/2"</text>
+<rect x='573.6' y='334.0' width='127.1' height='34.0' fill='#f0d7b5' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='637.2' y='348.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Cross</text>
+<text x='637.2' y='362.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>20-1/2"</text>
+<text x='785.2' y='384.0' font-family='Helvetica, Arial, sans-serif' font-size='10.5' fill='#5d6b70' text-anchor='end' font-weight='normal'>≈13-5/8" left over</text>
+<text x='20.0' y='427.0' font-family='Helvetica, Arial, sans-serif' font-size='14' fill='#1f2a2e' text-anchor='start' font-weight='bold'>Pattern E</text>
+<text x='20.0' y='443.0' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#5d6b70' text-anchor='start' font-weight='normal'>make 1</text>
+<rect x='190.0' y='412.0' width='595.2' height='34.0' fill='#efe6d8' stroke='#5d6b70' stroke-width='1' stroke-dasharray='4 3'/>
+<rect x='190.0' y='412.0' width='127.1' height='34.0' fill='#f0d7b5' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='253.6' y='426.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Cross</text>
+<text x='253.6' y='440.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>20-1/2"</text>
+<rect x='317.9' y='412.0' width='127.1' height='34.0' fill='#f0d7b5' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='381.4' y='426.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Cross</text>
+<text x='381.4' y='440.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>20-1/2"</text>
+<rect x='445.8' y='412.0' width='127.1' height='34.0' fill='#f0d7b5' stroke='#1f2a2e' stroke-width='1.2'/>
+<text x='509.3' y='426.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>Cross</text>
+<text x='509.3' y='440.0' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f2a2e' text-anchor='middle' font-weight='bold'>20-1/2"</text>
+<text x='785.2' y='462.0' font-family='Helvetica, Arial, sans-serif' font-size='10.5' fill='#5d6b70' text-anchor='end' font-weight='normal'>≈34-1/4" (spare) left over</text>
+<text x='410.0' y='498.0' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2a2e' text-anchor='middle' font-weight='normal'>10 studs (2×4×96") make both benches. Buy 11 to have one spare.</text>
+<text x='410.0' y='518.0' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#5d6b70' text-anchor='middle' font-weight='normal'>Per bench: 4 rails, 6 cross pieces, 4 legs. Legs assume 4" casters: measure yours first.</text>
+<text x='410.0' y='536.0' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#5d6b70' text-anchor='middle' font-weight='normal'>All cuts square. 1/8" kerf allowed. Pattern A has under 1" spare: square the ends first.</text>
+</svg>

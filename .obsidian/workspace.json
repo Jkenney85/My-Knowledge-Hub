@@ -11,10 +11,14 @@
             "id": "98b05b74a2b87139",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "03 Business/WoodWorkingSideHustle/2x4 MDF Workbench.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2x4 MDF Workbench"
             }
           }
         ]
@@ -186,6 +190,11 @@
   },
   "active": "98b05b74a2b87139",
   "lastOpenFiles": [
+    "03 Business/WoodWorkingSideHustle/2x4 Rolling Workbench.md",
+    "03 Business/WoodWorkingSideHustle/2x4 Rolling Workbench.md.tmp.238342.821e3fd22238",
+    "03 Business/WoodWorkingSideHustle/Assets/Rolling Workbench 2x4 Cutting Layouts.svg",
+    "03 Business/WoodWorkingSideHustle/Assets/Rolling Workbench Frame and Caster Details.svg",
+    "03 Business/WoodWorkingSideHustle/Assets/Rolling Workbench Front and End Views.svg",
     "03 Business/WoodWorkingSideHustle/2x4 MDF Workbench.md",
     "03 Business/WoodWorkingSideHustle/2x4 MDF Workbench.md.tmp.238342.1560d8dfd883",
     "03 Business/WoodWorkingSideHustle/Assets/Workbench MDF Sheet Layout.svg",
@@ -204,13 +213,9 @@
     "03 Business/WoodWorkingSideHustle/Assets/Rectangular Planter Six Leg Layout.png",
     "03 Business/WoodWorkingSideHustle/Assets/Planter Corner Layout.png",
     "03 Business/WoodWorkingSideHustle/Assets/Christmas Tree Picket Cut Layouts.png",
-    "03 Business/WoodWorkingSideHustle/Assets/2x4 Tree Cutting Layouts.svg",
-    "03 Business/WoodWorkingSideHustle/Assets/2x4 Tree 6ft Front View.svg",
-    "03 Business/WoodWorkingSideHustle/Assets/2x4 Tree 4ft Front View.svg",
     "03 Business/WoodWorkingSideHustle/Market Research.md",
     "03 Business/WoodWorkingSideHustle/CedarSideHustle - Overview.md",
     "03 Business/WoodWorkingSideHustle/Cedar Christmas Tree.md",
-    "03 Business/WoodWorkingSideHustle/Assets",
     "03 Business/WoodWorkingSideHustle/2x4 Christmas Tree.md",
     "03 Business/WoodWorkingSideHustle/14x28x24 Cedar Planter.md",
     "03 Business/WoodWorkingSideHustle/14x14x24 Cedar Planter.md",
@@ -230,7 +235,6 @@
     "Testing second note creation.md",
     "Home.md",
     "03 Business/Business Dashboard.md",
-    "02 Projects/Deck Build/Deck Build - Claude.md",
-    "02 Projects/Deck Build/Codex - Deck diagrams and materials.md"
+    "02 Projects/Deck Build/Deck Build - Claude.md"
   ]
 }
