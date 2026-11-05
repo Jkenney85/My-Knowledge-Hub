@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 Business/WoodWorkingSideHustle/2x4 MDF Workbench.md",
+                "file": "12 Recipes/Big Mac Bowls.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2x4 MDF Workbench"
+              "title": "Big Mac Bowls"
             }
           }
         ]
@@ -176,26 +176,33 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-livesync:Replicate": false,
-      "obsidian-livesync:Show Log": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-livesync:Show Customization sync": false
+      "bases:Create new base": false
     }
   },
   "active": "98b05b74a2b87139",
   "lastOpenFiles": [
+    "12 Recipes/Big Mac Bowls.md.tmp.36016.501dd9d3bd1f",
+    "12 Recipes/Big Mac Bowls.md.tmp.36016.e5949f0964a3",
+    "12 Recipes/Beef Egg and Rice Meal Prep Bowls.md",
+    "12 Recipes/Big Mac Bowls.md",
+    "12 Recipes/Big Mac Bowls.md.tmp.303692.74619aaa493b",
+    "12 Recipes/Beef Egg and Rice Meal Prep Bowls.md.tmp.303692.3ffd17edbf5d",
+    "12 Recipes/Beef Egg and Rice Meal Prep Bowls.md.tmp.303692.04a7b88ea086",
+    "12 Recipes/Brined Chicken Nuggets.md",
+    "12 Recipes/Beef Egg and Rice Meal Prep Bowls.md.tmp.303692.5859504502c6",
+    "12 Recipes/Shopping List.md",
     "03 Business/WoodWorkingSideHustle/2x4 Rolling Workbench.md",
+    "03 Business/WoodWorkingSideHustle/2x4 MDF Workbench.md",
     "03 Business/WoodWorkingSideHustle/2x4 Rolling Workbench.md.tmp.238342.821e3fd22238",
     "03 Business/WoodWorkingSideHustle/Assets/Rolling Workbench 2x4 Cutting Layouts.svg",
     "03 Business/WoodWorkingSideHustle/Assets/Rolling Workbench Frame and Caster Details.svg",
     "03 Business/WoodWorkingSideHustle/Assets/Rolling Workbench Front and End Views.svg",
-    "03 Business/WoodWorkingSideHustle/2x4 MDF Workbench.md",
     "03 Business/WoodWorkingSideHustle/2x4 MDF Workbench.md.tmp.238342.1560d8dfd883",
     "03 Business/WoodWorkingSideHustle/Assets/Workbench MDF Sheet Layout.svg",
     "03 Business/WoodWorkingSideHustle/Assets/Workbench Front and End Views.svg",
@@ -204,11 +211,6 @@
     "03 Business/Business Dashboard.md.tmp.238342.88ee4a4bc188",
     "03 Business/WoodWorkingSideHustle/2x4 Christmas Tree.md.tmp.238342.2bb3842585d3",
     "03 Business/WoodWorkingSideHustle/2x4 Christmas Tree.md.tmp.238342.b4677ffdca3e",
-    "03 Business/WoodWorkingSideHustle/2x4 Christmas Tree.md.tmp.238342.560b02ba4969",
-    "03 Business/WoodWorkingSideHustle/2x4 Christmas Tree.md.tmp.238342.b5ac6ffe6345",
-    "03 Business/WoodWorkingSideHustle/2x4 Christmas Tree.md.tmp.238342.bb9bf75cf57c",
-    "03 Business/WoodWorkingSideHustle/2x4 Christmas Tree.md.tmp.238342.9adba0b8c500",
-    "03 Business/WoodWorkingSideHustle/2x4 Christmas Tree.md.tmp.238342.f5297ba1e3a7",
     "03 Business/WoodWorkingSideHustle/WoodWorkingSideHustle - Overview.md",
     "03 Business/WoodWorkingSideHustle/Assets/Rectangular Planter Six Leg Layout.png",
     "03 Business/WoodWorkingSideHustle/Assets/Planter Corner Layout.png",
@@ -230,11 +232,6 @@
     "04 Coding/Vibe Coding/Prompt Vault/Production Risk Review.md",
     "04 Coding/Vibe Coding/Prompt Vault/Engineering Review.md",
     "00 Inbox/testing new note creation.md",
-    "Second Note Test.md",
-    "Using Codex With This Vault.md",
-    "Testing second note creation.md",
-    "Home.md",
-    "03 Business/Business Dashboard.md",
-    "02 Projects/Deck Build/Deck Build - Claude.md"
+    "Second Note Test.md"
   ]
 }
