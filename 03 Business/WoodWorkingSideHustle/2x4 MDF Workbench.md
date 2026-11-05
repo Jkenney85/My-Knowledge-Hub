@@ -7,7 +7,7 @@ created: 2026-11-02
 
 # 2x4 MDF Workbench
 
-Product for [[03 Business/WoodWorkingSideHustle/WoodWorkingSideHustle - Overview|WoodWorkingSideHustle]], planned 2026-11-02. A 2×4 workbench with a lower shelf, based on two photos of a GrantMadeThis.com bench (2×4 frames, laminated notched legs, plywood top and shelf). Two benches are built together from **one 4×8 sheet of 3/4″ MDF**: one for the shop and one to sell. For a cheaper-lumber version on casters, see [[03 Business/WoodWorkingSideHustle/2x4 Rolling Workbench|2x4 Rolling Workbench]].
+Product for [[03 Business/WoodWorkingSideHustle/WoodWorkingSideHustle - Overview|WoodWorkingSideHustle]], planned 2026-11-02. A 2×4 workbench with a lower shelf, based on two photos of a GrantMadeThis.com bench (2×4 frames, laminated notched legs, plywood top and shelf). Two benches are built together from **one 4×8 sheet of 3/4″ MDF**: one for the shop and one to sell. For the same build on casters, see [[03 Business/WoodWorkingSideHustle/2x4 Rolling Workbench|2x4 Rolling Workbench]].
 
 ## Design status
 

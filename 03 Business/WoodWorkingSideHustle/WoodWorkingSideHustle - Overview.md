@@ -47,7 +47,7 @@ Build woodworking projects (planter boxes, seasonal decor, and similar items) in
 - **Materials:** 13 pine 2×4 studs for both, MDF sealed with water-based polyurethane. About $98.66 per bench before tax (Home Depot Midtown KC, 2026-11-02).
 - **Still open:** selling price, stability test, and prototype verification.
 - **Product details:** [[03 Business/WoodWorkingSideHustle/2x4 MDF Workbench|Workbench plan, cut lists, and costs]].
-- **Rolling version:** single 2×4 legs on locking 3″ casters, same top, height, and MDF sheet. 10 studs for two, about $116.29 per bench before tax. Checks a video's "two for ~$150" claim: the main materials come to $142.47. See [[03 Business/WoodWorkingSideHustle/2x4 Rolling Workbench|Rolling workbench plan and costs]].
+- **Rolling version:** the same laminated, notched legs, frames, top, and notched shelf, on locking 3″ casters instead of foot blocks. 13 studs for two, about $128.00 per bench before tax. A video claims two rolling benches for ~$150; the main materials here come to $156.42. See [[03 Business/WoodWorkingSideHustle/2x4 Rolling Workbench|Rolling workbench plan and costs]].
 
 ## Tote racks in development
 
@@ -110,6 +110,7 @@ Build woodworking projects (planter boxes, seasonal decor, and similar items) in
 - 2026-11-02: Renamed the business from CedarSideHustle to WoodWorkingSideHustle to cover projects beyond cedar. Switched the 2x4 Christmas tree from cedar to plain pine 2x4 studs.
 - 2026-11-02: Planned two 2×4 MDF workbenches from one MDF sheet with drawings, cut lists, and costs; no prototype built yet.
 - 2026-11-02: Added a rolling workbench version on casters (two from one MDF sheet and 10 studs); no prototype built yet.
+- 2026-11-05: Redesigned the rolling workbench to use the stationary bench's laminated, notched legs and four-cross-piece frames (13 studs for two).
 - 2026-11-05: Planned single and double HDX 27 gal tote racks with drawings, cut lists, and costs; no prototype built yet.
 - Five-picket cut plan calculated; physical prototype has not yet verified fit or yield.
 
