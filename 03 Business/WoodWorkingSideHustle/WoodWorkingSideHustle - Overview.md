@@ -49,6 +49,13 @@ Build woodworking projects (planter boxes, seasonal decor, and similar items) in
 - **Product details:** [[03 Business/WoodWorkingSideHustle/2x4 MDF Workbench|Workbench plan, cut lists, and costs]].
 - **Rolling version:** single 2×4 legs on locking 3″ casters, same top, height, and MDF sheet. 10 studs for two, about $116.29 per bench before tax. Checks a video's "two for ~$150" claim: the main materials come to $142.47. See [[03 Business/WoodWorkingSideHustle/2x4 Rolling Workbench|Rolling workbench plan and costs]].
 
+## Tote racks in development
+
+- **Concept:** 2×4 racks that hold HDX 27 gal totes four high on ripped-2×4 rails. Single column (4 totes) and double column (8 totes), about 6 ft tall.
+- **Cost before tax:** single rack $36.43 (6 studs), double $66.08 (11 studs); totes are $8.98 each if sold with the rack.
+- **Still open:** check the fit on a real tote, set selling prices, and build a prototype.
+- **Product details:** [[03 Business/WoodWorkingSideHustle/HDX Tote Racks|Tote rack plans, cut lists, and costs]].
+
 ## Customer and proposed value
 
 - **Initial customer hypothesis:** Kansas City metro homeowners and renters looking for planters for porches, patios, or small gardens; validate through actual inquiries.
@@ -103,6 +110,7 @@ Build woodworking projects (planter boxes, seasonal decor, and similar items) in
 - 2026-11-02: Renamed the business from CedarSideHustle to WoodWorkingSideHustle to cover projects beyond cedar. Switched the 2x4 Christmas tree from cedar to plain pine 2x4 studs.
 - 2026-11-02: Planned two 2×4 MDF workbenches from one MDF sheet with drawings, cut lists, and costs; no prototype built yet.
 - 2026-11-02: Added a rolling workbench version on casters (two from one MDF sheet and 10 studs); no prototype built yet.
+- 2026-11-05: Planned single and double HDX 27 gal tote racks with drawings, cut lists, and costs; no prototype built yet.
 - Five-picket cut plan calculated; physical prototype has not yet verified fit or yield.
 
 Return to [[03 Business/Business Dashboard|Business Dashboard]].

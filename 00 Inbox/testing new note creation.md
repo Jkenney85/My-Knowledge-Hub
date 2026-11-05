@@ -2,4 +2,5 @@ for syncing with other devices
 need to sync with server
 Adding text 
 
-Testing line 3
+12200 nw crooked road
+kc, mo 64152 

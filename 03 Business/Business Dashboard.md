@@ -42,6 +42,7 @@ created: 2026-06-18
 - [[WoodWorkingSideHustle/2x4 Christmas Tree|Pine 2x4 Christmas trees (4 ft and 6 ft): drawings, cut lists, and costs]]
 - [[WoodWorkingSideHustle/2x4 MDF Workbench|2x4 MDF workbenches (two from one sheet): drawings, cut lists, and costs]]
 - [[WoodWorkingSideHustle/2x4 Rolling Workbench|2x4 rolling workbenches on casters (two from one sheet): drawings, cut lists, and costs]]
+- [[WoodWorkingSideHustle/HDX Tote Racks|HDX tote racks (single and double, 4 high): drawings, cut lists, and costs]]
 - [[WoodWorkingSideHustle/Market Research|Local market and sales channels]]
 
 ## Useful note types
